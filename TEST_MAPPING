@@ -1,0 +1,15 @@
+{
+  "presubmit": [
+    {
+      "name": "minadbd_test"
+    },
+    {
+      "name": "recovery_unit_test"
+    }
+  ],
+  "postsubmit": [
+    {
+      "name": "RecoveryOtaTest"
+    }
+  ]
+}
